@@ -1,29 +1,57 @@
-#main-navbar {
+#navbar-container {
     float: left; 
     width: 100%;
     position: relative;
-    text-align: center;
 }
 
-#main-navbar {
-    overflow: hidden;
-}
-
-#main-navbar ul {
+#navbar-container ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: inline-block;
-    vertical-align: top;
-}
-
-#main-navbar ul li {
+    left: 50%;
+    position: relative;
     float: left;
 }
 
-#main-navbar ul li a {
+#navbar-container ul li {
+    float: left;
+    right: 50%;
+    position: relative;
+    display: block;
+}
+
+#navbar-container ul li a {
     display: block;
     padding: 10px 20px;
-    color: black;
+    color: #fff;
     text-decoration: none;
+    background-color: #000;
+    text-decoration: underline overline;
+}
+
+#main-navbar {
+    background-color: blue;
+    overflow: hidden;
+}
+
+#sidebar {
+    position: fixed;
+    right: 0%;
+    background-color: red;
+    height: 100%;
+    width: 20%;
+}
+
+#sidebar-container ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+
+#sidebar-container ul li a {
+    display: block;
+    padding: 15px 0;
+    color: #fff;
+    text-decoration: none;
+    background-color: #000;
 }

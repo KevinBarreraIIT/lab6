@@ -1,0 +1,29 @@
+#main-navbar {
+    float: left; 
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+#main-navbar {
+    overflow: hidden;
+}
+
+#main-navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#main-navbar ul li {
+    float: left;
+}
+
+#main-navbar ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: black;
+    text-decoration: none;
+}
